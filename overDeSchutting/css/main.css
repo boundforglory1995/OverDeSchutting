@@ -1,0 +1,260 @@
+.header {
+  width: 100%;
+  height: 180px; }
+  .header .main-nav {
+    padding-top: 50px; }
+    .header .main-nav ul {
+      width: 30em;
+      background: black;
+      border-radius: 10px;
+      margin: 0 auto; }
+      .header .main-nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+        background-color: black;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        .header .main-nav ul li a {
+          text-decoration: none;
+          color: white; }
+        .header .main-nav ul li:hover {
+          border-left: 1px solid white;
+          border-right: 1px solid white;
+          background-color: #333333; }
+
+
+span{background-color: red;
+    color: black;
+    font-weight: 700;
+    padding: 5px;}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 10px; }
+  .wrapper .pagination ul {
+    margin: 0;
+    background: linear-gradient(#fac543, white);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px; }
+    .wrapper .pagination ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding-left: 7px;
+      padding-right: 7px; }
+      .wrapper .pagination ul li a {
+        text-decoration: none;
+        color: black; }
+
+.music {
+  padding-left: 10px; }
+  .music h3 {
+    color: red;
+    margin: 0; }
+  .music iframe {
+    padding-right: 10px;
+    float: left;
+    width: 20%; }
+
+.wrapper hr {
+  width: 100%; }
+.wrapper h2 {
+  color: red;
+  margin-bottom: 5px;
+  padding-left: 5px; }
+.wrapper .pages .previous-page {
+  float: left; }
+  .wrapper .pages .previous-page span {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 5px; }
+  .wrapper .pages .previous-page a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600; }
+.wrapper .pages .next-page {
+  float: right;
+  margin-top: -450px;
+   }
+  .wrapper .pages .next-page span {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 5px; }
+  .wrapper .pages .next-page a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600; }
+.wrapper .pages .page-title {
+  text-align: center; }
+  .wrapper .pages .page-title p {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    padding-top: 10px; }
+  .wrapper .pages .page-title a {
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 700; }
+
+.video {
+  margin: 0 auto; }
+  .video iframe {
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px grey; }
+  .video p {
+    text-align: center; }
+  .video img {
+    width: 25px;
+    padding: 5px; }
+  .video a {
+    float: right; }
+  .video h2 {
+    color: red;
+    margin-bottom: 6px; }
+
+hr {
+  width: 80%;
+   border:none;
+  border-top:1px dotted #f00;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+   }
+
+.wrapper2 {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 10px; }
+  .wrapper2 #button {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px; }
+
+.question h2 {
+  padding-left: 20px; }
+.question h5 {
+  margin-bottom: -8px; }
+.question hr {
+  width: 95%;
+  border-top: solid 1px lightgray; }
+.question iframe {
+  padding-left: 40px;
+  padding-right: 20px;
+  float: left;
+  margin-bottom: 100px; }
+.question #span {
+  background: red;
+  display: inline-block;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700; }
+.question #title {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 1.3em;
+  padding-left: 5px; }
+.question .about-question {
+  padding-left: 20px; }
+  .question .about-question #one {
+    color: red;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 1.3em;
+    font-weight: 800; }
+  .question .about-question #two {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 800; }
+.question .free-space {
+  height: 50px; }
+
+.form {
+  height: 500px;
+  padding-left: 20px;
+  padding-bottom: 20px; }
+  .form #naam, .form #email, .form #antwoord {
+    padding: 5px;
+    font-weight: 700; }
+  .form input {
+    width: 150px; }
+  .form #checkbox {
+    width: 25px; }
+  .form #check-text {
+    display: inline-block; }
+  .form #submit {
+    float: right;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-left: 4px;
+    background: linear-gradient(grey, black); }
+
+.wrapper .form .bners img {
+  width: 150px;
+  heigth: 150px;
+  float: left;
+  border: none;
+  box-shadow: 5px 5px 5px white; }
+.wrapper .form .bners .info p {
+  margin-bottom: 0; }
+.wrapper .form .bners .info a img {
+  margin-top: -24px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  float: right;
+  box-shadow: none; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: white; }
+  html .background-image, body .background-image {
+    background-image: url(../images/tour_de_france.jpg);
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%; }
+  html footer, body footer {
+    text-align: center;
+    background: linear-gradient(grey, black);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white; }
+    html footer a, body footer a {
+      color: white;
+      text-decoration: none;
+      padding-left: 5px;
+      padding-right: 5px; }
+
+      #iframe{
+        text-align: center;
+      }
+p{width:50%;
+text-align: center;
+margin-left: 25%;}
+#videotext {width:10%;}
